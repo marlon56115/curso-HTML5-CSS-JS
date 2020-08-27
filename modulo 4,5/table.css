@@ -1,0 +1,52 @@
+table {
+    border-collapse: collapse;
+    margin         : 50px;
+    border         : solid;
+    border-width   : 1px;
+}
+
+table,
+th,
+td {
+    padding      : 15px;
+    border-bottom: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: orange;
+}
+
+tr:nth-child(odd) {
+    background-color: red;
+}
+
+tr:hover {
+    background-color: #ccff99;
+}
+
+div {
+    height: 200px;
+    width : 200px;
+    border: 1px solid blue;
+}
+
+div.overflow-hidden {
+    overflow: hidden;
+}
+
+div.overflow-scroll {
+    overflow: scroll;
+}
+
+div.overflow-auto {
+    overflow: auto;
+}
+
+div.overflow-x-auto {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+/* tr:nth-child(3n) {
+    background-color: #ccff99;
+} */
