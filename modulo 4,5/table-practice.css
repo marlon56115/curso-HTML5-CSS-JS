@@ -1,0 +1,36 @@
+tr,
+td {
+    padding: 20px 50px 20px 50px;
+    border: solid 1px;
+
+}
+.tabla td{
+    border: solid 3px white;
+
+}
+
+.tabla0 tr:nth-child(even){
+    background-color: rosybrown;
+}
+table {
+    border-collapse: collapse;
+}
+
+.tabla0 thead{
+    background-color: cyan;
+    padding-bottom: 10px;
+}
+
+.tabla thead{
+background-color: blue;
+}
+.tabla tfoot{
+    background-color: steelblue;
+}
+
+.tabla tbody tr:nth-child(even){
+    background-color: cyan;
+}
+.tabla tbody tr:nth-child(odd){
+    background-color: rgb(178, 190, 190);
+}

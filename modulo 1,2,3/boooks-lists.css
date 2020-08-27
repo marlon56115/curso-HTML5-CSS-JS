@@ -1,0 +1,15 @@
+ol>li{
+    margin-left: 20px;
+    /*list-style-position: outside;*/
+    padding: 10px;
+    list-style-type: armenian;
+    list-style-image: url(img/icon.png);
+    
+}
+h1{
+    text-align: center;
+    border-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(104, 10, 10);
+
+}

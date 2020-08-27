@@ -1,0 +1,23 @@
+.mujer{
+    color: blue;
+
+}
+.hombre{
+    color: red;
+}
+.bold{
+    font-weight: bold;
+}
+.cursive{
+    font-style: oblique;
+}
+#middlemarch {
+    list-style-type: upper-roman;
+    margin-left: 10px;
+}
+#middlemarch li{
+    margin: 10px;
+}
+#taletwocities{
+    list-style-type: upper-alpha;
+}
