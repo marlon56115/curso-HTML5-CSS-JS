@@ -9,13 +9,17 @@ header{
 nav{
     background-color: rgb(107, 189, 107);
     align-content: center;
-    width: 70%;
+    width: 100%;
     margin:auto;
+    position: fixed;
+    top: 0px;
+
 }
 
 #menu {
     margin:auto;
     width: 80%;
+    background-color: #fff;
 }
 
 #menu>li{
@@ -36,6 +40,8 @@ nav{
 main{
     background-color: black;
     padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .ingredientes {
@@ -51,8 +57,15 @@ img{
     border-width: 5px;
 }
 article{
+   /* width: 65%;*/
+   flex: 1;
     background-color: rgb(141, 65, 65);
     padding: 50px;
-    margin-bottom: 10px;
     border-radius: 5px;
+    margin:10px 10px 10px 10px;
+    min-width: 500px;
+}
+
+p.inline-block{
+    display: inline-block;
 }
